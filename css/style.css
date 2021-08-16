@@ -77,9 +77,20 @@ body {
     padding: 0;
 }
 
+.navbar-brand img{
+    width: 120px;
+}
+
 @media screen and (min-width: 992px) {
     .navbar-brand {
         justify-content: left;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    .navbar-brand img{
+        width: 150px;
     }
 
 }
@@ -91,17 +102,32 @@ body {
     justify-content: space-between;
 }
 
-@media screen and (max-width: 992px) {
+
     .contatoNavBar {
-        display: none;
+        position: fixed;
+        right: 5px;
+        top: 5px;
     }
-}
+
+    .contatoNavBar img {
+        width: 30px;
+        height: 25px;
+    }
+
+    @media screen and (min-width: 768px) {
+        .contatoNavBar img {
+            width: 40px;
+            height: 35px;
+        }
+    }
+
 
 .btnParceiro {
     display: none;
     background-color: var(--corPagina);
     border: none;
     transition: 0.3s;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 992px) {
@@ -131,17 +157,8 @@ body {
     color: #F77737;
 }
 
-.listaNavBx li a {
-    color: white;
-}
 
-.listaNavBx li a:hover {
-    color: white;
-}
 
-.listaNavBx li {
-    margin-right: 10px;
-}
 
 
 .segNav {
@@ -156,12 +173,31 @@ body {
     color: white;
     border-color: white;
     background-color: black;
+    
 }
 
 .segNav button:hover {
     color: white;
     border-color: white;
     background-color: black;
+}
+
+/*BOTTOM NAVBAR*/
+#bottom-navbar-container .container {
+    justify-content: flex-end;
+}
+
+#bottom-navbar-container a {
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-toggler {
+    font-size: 1.5em;
+}
+
+.listaNavBx li {
+    margin-right: 10px;
 }
 
 

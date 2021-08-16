@@ -46,6 +46,8 @@ body {
     flex-direction: row;
     justify-content: end;
     align-items: center;
+    padding-top: px;
+    padding-bottom: 0px;
 }
 
 #navbar .navbar-nav li {
@@ -129,19 +131,44 @@ body {
     color: #F77737;
 }
 
+.listaNavBx li a {
+    color: white;
+}
+
+.listaNavBx li a:hover {
+    color: white;
+}
+
+.listaNavBx li {
+    margin-right: 10px;
+}
+
+
 .segNav {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-items: center;
     align-items: center; 
+    margin-top: 30px;
 }
 
 .segNav button {
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: white;
+    background-color: black;
 }
 
-.segNav button i {
-    color: black;
-    border-color: black;
+.segNav button:hover {
+    color: white;
+    border-color: white;
+    background-color: black;
 }
+
+
+
+@media screen and (max-width: 992px) {
+    .segNav {
+        display: flex;
+    }
+}
+

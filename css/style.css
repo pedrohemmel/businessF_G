@@ -1,0 +1,147 @@
+:root {
+    --corPagina: #318ba3;
+}
+
+* {
+    font-family: 'montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+.primary-bg-color {
+    background-color: white;
+}
+
+.secondary-bg-color {
+    background-color: var(--corPagina);
+}
+
+.light-bg-color {
+    background-color: #FCF5EB;
+}
+
+.dark-bg-color {
+    background-color: #101010;
+}
+
+.primary-color {
+    color: var(--corPagina);
+}
+
+.secundary-color {
+    color: white;
+}
+
+.light-color {
+    color: #FCF5EB;
+}
+
+/*NAVBAR*/
+
+#navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+#navbar .navbar-nav li {
+    margin-left: 1em;
+}
+
+#navbar a {
+    color: black;;
+}
+
+#navbar li {
+    position: relative;
+}
+
+#navbar i {
+    font-size: 30px;
+}
+
+#navbar ul {
+    margin-right: 30px;
+}
+
+.navbar-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        justify-content: left;
+    }
+
+}
+
+#navbar-items {
+    min-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+    .contatoNavBar {
+        display: none;
+    }
+}
+
+.btnParceiro {
+    display: none;
+    background-color: var(--corPagina);
+    border: none;
+    transition: 0.3s;
+}
+
+@media screen and (min-width: 992px) {
+    .btnParceiro {
+       height: 50px;
+       display: block;
+    }
+}
+
+.btnParceiro:hover {
+    background-color: #2d7b91;
+}
+
+.bi-whatsapp {
+    transition: 0.3s;
+}
+
+.bi-whatsapp:hover {
+    color: #34af23;
+}
+
+.bi-instagram {
+    transition: 0.3s;
+}
+
+.bi-instagram:hover {
+    color: #F77737;
+}
+
+.segNav {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center; 
+}
+
+.segNav button {
+    color: black;
+    border-color: black;
+}
+
+.segNav button i {
+    color: black;
+    border-color: black;
+}

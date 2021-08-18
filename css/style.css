@@ -109,7 +109,7 @@ body {
 
 
     .contatoNavBar {
-        position: fixed;
+        position: absolute;
         right: 5px;
         top: 5px;
     }

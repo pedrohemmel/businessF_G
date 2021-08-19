@@ -252,7 +252,7 @@ body {
 
 #mini-banners .col-12 {
     z-index: 1;
-    height: 350px;
+    height: 300px;
     padding: 1.5em;
     position: relative;
     display: flex;

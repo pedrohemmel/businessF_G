@@ -252,7 +252,7 @@ body {
 
 #mini-banners .col-12 {
     z-index: 1;
-    height: 300px;
+    height: 350px;
     padding: 1.5em;
     position: relative;
     display: flex;
@@ -269,6 +269,7 @@ body {
 
     #mini-banners .col-12 {
         max-width: 30%;
+        height: 300px;
     }
 
     
@@ -297,7 +298,7 @@ body {
 }
 
 #mini-banners .col-12 a:hover {
-    color: rgb(243, 101, 49);
+    color: rgb(237, 126, 86);
 }
 
 /*Apresentação*/
@@ -338,6 +339,12 @@ body {
     font-weight: bold;
 
     background-color: var(--corPagina);
+}
+
+/*mais vendidos*/
+
+.card-cody p {
+    color:rgb(118, 118, 118);
 }
 
 

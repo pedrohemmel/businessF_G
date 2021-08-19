@@ -32,6 +32,10 @@ body {
     background-color: #101010;
 }
 
+.transparent-bg-color {
+    background-color: transparent;
+}
+
 .primary-color {
     color: var(--corPagina);
 }
@@ -343,9 +347,81 @@ body {
 
 /*mais vendidos*/
 
+#maisVendidos {
+    padding: 4em 0;
+}
+
+#maisVendidos row {
+    margin: 0;
+}
+
+#maisVendidos .col-md-3 {
+    padding: 0;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        text-align: left;
+    }
+}
+
+.card {
+    text-align: center;
+    border-radius: 0;
+    font-size: 0.7em;
+}
+
+.card-title {
+    font-size: 1.4em;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        font-size: 1em;
+    }
+}
+
+.card img {
+    width: 140px;
+    margin: 2em auto;
+}
+
+.card .card-category {
+    font-size: 0.8em;
+}
+
 .card-cody p {
     color:rgb(118, 118, 118);
 }
 
+.card .card-text {
+    margin: 2em 0;
+    font-weight: bold;
+}
+
+.card-body a {
+    border: none;
+}
+
+.card-body a:hover {
+    background-color: var(--corPagina);
+}
+
+.verMaisProdutos {
+    margin: 2em 1em;
+    color: white;   
+}
+
+.verMaisProdutos:hover {
+    color: white;   
+}
 
 

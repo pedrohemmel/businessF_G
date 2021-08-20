@@ -41,7 +41,11 @@ body {
 }
 
 .secondary-color {
-    color: white;
+    color: #fff;
+}
+
+.dark-color {
+    color: #000;
 }
 
 .light-color {
@@ -347,6 +351,10 @@ body {
 
 /*mais vendidos*/
 
+.classeMaisVendidos {
+    position: relative;
+    padding: 0;
+}
 
 
 #maisVendidos {
@@ -407,18 +415,66 @@ body {
 
 .verMaisProdutos {
     text-align: center;
-    margin-top: 40px;;
-    color: white;   
+    margin: 40px auto;
+    color: white;  
+    border: none;
+    width: 90%;
 }
 
-@media screen and (min-width: 768px) {
+@media(min-width: 768px) {
     .verMaisProdutos {
-        text-align: left;   
+        width: 100%;
     }
 }
 
 .verMaisProdutos:hover {
-    color: white;   
+    color: white; 
+    background-color: var(--corPagina);  
+}
+
+/*Todos produtos*/
+
+#todosProdutos {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    display: none;
 }
 
 
+.todosProdutos {
+    background-color: #fff;
+}
+
+#todosProdutos .col-md-6 {
+    margin-bottom: 20px;
+}
+
+#todosProdutos .row {
+    margin-top: 20px;
+}
+
+.descricaoProduto {
+    overflow: auto;
+    height: 200px;
+    text-align: justify;
+}
+
+@media(min-width: 768px) {
+    .descricaoProduto {
+        overflow: auto;
+        height: 200px;
+        text-align: center;;
+    }
+}
+
+.voltarMaisVendidos {
+    border: none;
+}
+
+.voltarMaisVendidos:hover {
+    background-color: var(--corPagina);
+}

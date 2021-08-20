@@ -22,14 +22,15 @@
 
     <!--js-->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg primary-bg-color p-2" id="navbar">
-        <div class="container">
+        <header class="container">
             <a href="" class="navbar-brand"><img src="images/logoBusinessFG.png"></a>
-        </div>
-        <div id="navbar-items">
+        </header>
+        <nav id="navbar-items">
             <div></div>
             
             <button type="button" class="btn btn-primary btnParceiro">
@@ -47,13 +48,13 @@
                 </li>
             
             </ul>
-        </div>
+        </nav>
     </nav>
 
     <!--BOTTOM NAVBAR-->
 
     <nav class="navbar navbar-expand-lg secondary-bg-color p-2" id="bottom-navbar-container">
-        <div class="container">
+        <section class="container">
             <button 
             class="navbar-toggler" 
             type="button" 
@@ -94,15 +95,15 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </section>
     </nav>
     <!--Fim NavBar-->
 
     <!--Banners-->
 
-    <div class="container" id="banners-container">
-        <div class="carousel slide" id="slider" data-bs-ride="carousel">
-            <div class="carousel-inner">
+    <section class="container" id="banners-container">
+        <section class="carousel slide" id="slider" data-bs-ride="carousel">
+            <article class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/banner1.png" alt="banner 1" class="d-block w-100 img-fluid">
                     <div class="carousel-caption">
@@ -126,7 +127,7 @@
                         <p>Exemplo</p>
                     </div>
                 </div>
-            </div>
+            </article>
             <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -135,9 +136,9 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-        </div>
-        <div class="container" id="mini-banners">
-            <div class="row justify-content-around">
+        </section>
+        <section class="container" id="mini-banners">
+            <article class="row justify-content-around">
                 <div class="col-12 fundoPagClaro" id="mini-banner-1">
                     <h2 class="secondary-color">CPF-A1 </h2>
                     <img src="images/notebookCertisign.png" alt="banner1">
@@ -153,12 +154,12 @@
                     <img src="images/notebookCertisign.png" alt="banner1">
                     <a id="hoverMeio" href="#">Compre agora</a>
                 </div>
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
+    </section>
 
     <!--Apresentação-->
-    <div class="container-fluid" id="apresentacao">
+    <section class="container-fluid" id="apresentacao">
         <div class="row">
             <div class="col-12 col-md-8">
                 <p class="primary-color offer-subtitle">Sobre nós</p>
@@ -173,62 +174,162 @@
                 <img width="400px;" src="images/fotoApresentacao.png" alt="foto da apresentacao">
             </div>
         </div>
-    </div>
+    </section>
     <!--Mais vendidos-->
-    <div class="container-fluid dark-bg-color classeMaisVendidos">
-        <div class="container" id="maisVendidos">
+    <section class="container-fluid dark-bg-color classeMaisVendidos">
+        <nav class="container" id="maisVendidos">
             <h2 class="title secondary-color">Mais vendidos</h2>
             <div class="row">
-                <div class="col-12 col-md-3">
+                <article class="col-12 col-md-3">
                     <div class="card transparent-bg-color">
                         <img src="images/notebookCertisign.png" alt="pacote 1" id="imagemMaisVendidos" class="card-img-top img-fluid">
                         <div class="card-body">
-                            <p class="card-category">Certificado</p>
+                            <p class="card-category">12 meses</p>
                             <h5 class="card-title secondary-color">CNPJ-A1 Desktop</h5>
+                            <p class="descricaoProduto">É o certificado digital destinado a pessoas jurídicas, é utilizado para realizar assinaturas digitais 
+                                e demais processos no meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede,sendo que uma das opções 
+                                é somente certificado sem Sistema Emissor de NF e a outra comtempla o serviço,você pode utilizar e assinar documentos na comodidade do seu 
+                                celular, tablet e dispositivo móvel (não é possível utilizar em desktop e Notebook).</p>
                             <p class="card-text primary-color">R$170,00</p>
                             <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3">
+                </article>
+                <article class="col-12 col-md-3">
                     <div class="card transparent-bg-color">
                         <img src="images/celularCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
                         <div class="card-body">
-                            <p class="card-category">Certificado</p>
+                            <p class="card-category">12 meses</p>
                             <h5 class="card-title secondary-color">CNPJ-A1 Mobile</h5>
+                            <p class="descricaoProduto">É o certificado digital destinado a pessoas jurídicas, é utilizado para realizar assinaturas digitais 
+                                e demais processos no meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede, 
+                                você pode utilizar e assinar documentos na comodidade do seu celular, computador ou dispositivo móvel.</p>
                             <p class="card-text primary-color">R$170,00</p>
                             <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
                             
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3">
+                </article>
+                <article class="col-12 col-md-3">
                     <div class="card transparent-bg-color">
                         <img src="images/notebookCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
                         <div class="card-body">
-                            <p class="card-category">Certificado</p>
+                            <p class="card-category">12 meses</p>
                             <h5 class="card-title secondary-color">CPF-A1 Desktop</h5>
+                            <p class="descricaoProduto">É o certificado digital destinado a pessoas físicas, é utilizado para realizar assinaturas digitais e demais processos no 
+                                meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede, você pode utilizar e 
+                                assinar documentos na comodidade do seu celular, computador ou dispositivo móvel.</p>
                             <p class="card-text primary-color">R$170,00</p>
                             <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3">
+                </article>
+                <article class="col-12 col-md-3">
                     <div class="card transparent-bg-color">
                         <img src="images/celularCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
                         <div class="card-body">
-                            <p class="card-category">Certificado</p>
+                            <p class="card-category">12 meses</p>
                             <h5 class="card-title secondary-color">CPF-A1 Mobile</h5>
+                            <p class="descricaoProduto">É o certificado digital destinado a pessoas físicas, é utilizado para realizar assinaturas digitais e demais processos no 
+                                meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede, você pode utilizar e 
+                                assinar documentos na comodidade do seu celular, computador ou dispositivo móvel.</p>
                             <p class="card-text primary-color">R$170,00</p>
                             <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
                         </div>
                     </div>
+                </article>
+                    <a href="#todosProdutos" onclick="apareceDiv()" class="verMaisProdutos btn btn-primary secondary-bg-color">Veja todos nossos produtos!</a>
                 </div>
-                    <a href="#" class="verMaisProdutos">Ver mais</a>
+            </nav>
+            <nav class="container-fluid primary-bg-color" id="todosProdutos">
+                <section class="container" id="container-produtos">
+                <h2 class="title">Nossos produtos</h2>
+                <a href="#maisVendidos" onclick="apareceDiv()" class="voltarMaisVendidos btn btn-primary secondary-bg-color">Voltar</a>
+                <div class="row">
+                    <article class="col-12 col-md-6">
+                        <div class="card transparent-bg-color">
+                            <img src="images/notebookCertisign.png" alt="pacote 1" id="imagemMaisVendidos" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-category">12 meses</p>
+                                <h5 class="card-title">CNPJ-A1 Desktop</h5>
+                                <p class="descricaoProduto">É o certificado digital destinado a pessoas jurídicas, é utilizado para realizar assinaturas digitais 
+                                    e demais processos no meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede,sendo que uma das opções 
+                                    é somente certificado sem Sistema Emissor de NF e a outra comtempla o serviço,você pode utilizar e assinar documentos na comodidade do seu 
+                                    celular, tablet e dispositivo móvel (não é possível utilizar em desktop e Notebook). </p>
+                                <p class="card-text primary-color">R$170,00</p>
+                                <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6">
+                        <div class="card transparent-bg-color">
+                            <img src="images/celularCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-category">12 meses</p>
+                                <h5 class="card-title">CNPJ-A1 Mobile</h5>
+                                <p class="descricaoProduto">É o certificado digital destinado a pessoas jurídicas, é utilizado para realizar assinaturas digitais 
+                                    e demais processos no meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede, 
+                                    você pode utilizar e assinar documentos na comodidade do seu celular, computador ou dispositivo móvel. </p>
+                                <p class="card-text primary-color">R$170,00</p>
+                                <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
+                                
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6">
+                        <div class="card transparent-bg-color">
+                            <img src="images/notebookCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-category">12 meses</p>
+                                <h5 class="card-title">CPF-A1 Desktop</h5>
+                                <p class="descricaoProduto">
+                                    É o certificado digital destinado a pessoas físicas, é utilizado para realizar assinaturas digitais e demais processos no 
+                                    meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede, você pode utilizar e 
+                                    assinar documentos na comodidade do seu celular, computador ou dispositivo móvel.</p>
+                                <p class="card-text primary-color">R$170,00</p>
+                                <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6">
+                        <div class="card transparent-bg-color">
+                            <img src="images/celularCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-category">12 meses</p>
+                                <h5 class="card-title">CPF-A1 Mobile</h5>
+                                <p class="descricaoProduto">É o certificado digital destinado a pessoas físicas, é utilizado para realizar assinaturas digitais e demais processos no 
+                                    meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na rede, você pode utilizar e 
+                                    assinar documentos na comodidade do seu celular, computador ou dispositivo móvel.</p>
+                                <p class="card-text primary-color">R$170,00</p>
+                                <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6">
+                        <div class="card transparent-bg-color">
+                            <img src="images/celularCertisign.png" alt="pacote 1" class="card-img-top img-fluid">
+                            <div class="card-body">
+                                <p class="card-category">12 meses</p>
+                                <h5 class="card-title">NF.e – A1 Mobile</h5>
+                                <p class="descricaoProduto">É o certificado digital destinado a pessoas jurídicas, é utilizado para realizar assinaturas 
+                                    digitais e demais processos no meio digital. Este modelo é um certificado A1 - válido por 12 meses, com apropriações na 
+                                    rede, válido somente para Emissão de Nota Fiscal, você pode utilizar e assinar documentos na comodidade do seu celular, 
+                                    tablet e dispositivo móvel (não é possível utilizar em desktop e Notebook).</p>
+                                <p class="card-text primary-color">R$170,00</p>
+                                <a href="#" class="secondary-bg-color btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </article>
+                    
                 </div>
-            </div>
-        </div>
-    </div>
+                <a href="#maisVendidos" onclick="apareceDiv()" class="voltarMaisVendidos btn btn-primary secondary-bg-color">Voltar</a>
+                </section>
+            </nav>
+        </section>
+        
+            
+            
+    
 
     
 </body>

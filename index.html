@@ -160,26 +160,26 @@
 
     <!--Apresentação-->
     <section class="container-fluid" id="apresentacao">
-        <div class="row">
-            <div class="col-12 col-md-8">
+        <nav class="row">
+            <article class="col-12 col-md-8">
                 <p class="primary-color offer-subtitle">Sobre nós</p>
                 <h2 class="light-color">Business F&G</h2>
                 <p class="dark-color">
                     A Business F & G, nasce da idealização de uma startup entre 2 amigos, buscamos criar algo novo para o meio social tendo a 
                     visibilidade de trazer automatização e melhorias nos processos empresariais no âmbito corporativo.
                 </p>
-                <a href="#maisVendidos" class="btn btn-primary">Produtos mais vendidos</a>
-            </div>
-            <div class="col-12 col-md-4">
+                <a href="#maisVendidos" onclick="voltaMaisVendidos()" class="btn btn-primary">Produtos mais vendidos</a>
+            </article>
+            <article class="col-12 col-md-4">
                 <img width="400px;" src="images/fotoApresentacao.png" alt="foto da apresentacao">
-            </div>
-        </div>
+            </artic>
+        </nav>
     </section>
     <!--Mais vendidos-->
     <section class="container-fluid dark-bg-color classeMaisVendidos">
         <nav class="container" id="maisVendidos">
             <h2 class="title secondary-color">Mais vendidos</h2>
-            <div class="row">
+            <nav class="row">
                 <article class="col-12 col-md-3">
                     <div class="card transparent-bg-color">
                         <img src="images/notebookCertisign.png" alt="pacote 1" id="imagemMaisVendidos" class="card-img-top img-fluid">
@@ -239,7 +239,7 @@
                     </div>
                 </article>
                     <a href="#todosProdutos" onclick="apareceDiv()" class="verMaisProdutos btn btn-primary secondary-bg-color">Veja todos nossos produtos!</a>
-                </div>
+                </nav>
             </nav>
             <nav class="container-fluid primary-bg-color" id="todosProdutos">
                 <section class="container" id="container-produtos">
@@ -320,17 +320,54 @@
                             </div>
                         </div>
                     </article>
-                    
                 </div>
                 <a href="#maisVendidos" onclick="apareceDiv()" class="voltarMaisVendidos btn btn-primary secondary-bg-color">Voltar</a>
                 </section>
             </nav>
+    </section>
+    <!--CONTATO-->
+    <section class="container-fluid secondary-bg-color" id="contato">
+        <div class="container">
+            <nav class="row">
+                <article class="col-12 col-md-4">
+                    <h3>Entre em contato</h3>
+                    <p>Entre em contato e acesse nossas redes sociais <i class="bi bi-globe"></i></p>
+                </article>
+                <article class="col-12 col-md-8 dark-bg-color">
+                    <i width="50px" height="50px" class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-whatsapp"></i>
+                </article>
+            </nav>
+        </div>
+    </section>
+    <!--footer-->
+    <footer id="footer">
+        <section class="container-fluid dark-bg-color" id="footer-links-container">
+            <nav class="row">
+                <article class="col-12 col-md-4 footer-column">
+                    <h3 class="secondary-color">Páginas</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="" class="grayLight-color">Home</a></li>
+                        <li class="mb-2"><a href="" class="grayLight-color">Sobre nós</a></li>
+                        <li class="mb-2"><a href="" class="grayLight-color">Mais Vendidos</a></li>
+                        <li class="mb-2"><a href="" class="grayLight-color">Contato</a></li>
+                    </ul>
+                </article>
+                <article class="col-12 col-md-4 footer-column" id="footer-center">
+                    <h3 class="secondary-color">Contato</h3>
+                    <p class="grayLight-color"><a href="" class="grayLight-color">Alguma dúvida? Ligue para nós <i class="bi bi-phone"></i></a></p>
+                    <p class="store-phone grayLight-color"><i class="bi bi-telephone"></i> (50)99999-9999</p>
+                </article>
+                <article class="col-12 col-md-4 footer-column">
+                    <h3 class="secondary-color">Informações</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="" class="grayLight-color">Poítica de Privacidade</a></li>
+                        <li class="mb-2"><a href="" class="grayLight-color">Política de Envio</a></li>
+                    </ul>
+                </article>
+            </nav>
         </section>
-        
-            
-            
-    
-
-    
+    </footer>
 </body>
 </html>

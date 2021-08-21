@@ -48,8 +48,8 @@ body {
     color: #000;
 }
 
-.light-color {
-    color: #FCF5EB;
+.grayLight-color {
+    color: #708388;
 }
 
 /*NAVBAR*/
@@ -133,7 +133,6 @@ body {
             
         }
     }
-
 
 .btnParceiro {
     display: none;
@@ -349,6 +348,10 @@ body {
     background-color: var(--corPagina);
 }
 
+#apresentacao .btn:hover {
+    background-color: #2d7b91;
+}
+
 /*mais vendidos*/
 
 .classeMaisVendidos {
@@ -410,7 +413,7 @@ body {
 }
 
 .card-body a:hover {
-    background-color: var(--corPagina);
+    background-color: #2d7b91;
 }
 
 .verMaisProdutos {
@@ -429,7 +432,7 @@ body {
 
 .verMaisProdutos:hover {
     color: white; 
-    background-color: var(--corPagina);  
+    background-color: #2d7b91;
 }
 
 /*Todos produtos*/
@@ -476,5 +479,67 @@ body {
 }
 
 .voltarMaisVendidos:hover {
-    background-color: var(--corPagina);
+    background-color: #2d7b91;
+}
+
+/*CONTATO*/
+
+#contato .col-md-8 .bi {
+    width: 50px;
+    color: white;
+}
+
+/*FOOTER*/
+
+#footer-links-container {
+    border-bottom: 1px solid #708388;
+}
+
+#footer .footer-column {
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    #footer .footer-column {
+        padding: 5em 2em;
+    }
+}
+
+#footer-links-container h3 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#footer-links-container li {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+
+#footer-links-container a {
+    text-decoration: none;
+}
+
+#footer-links-container a:hover {
+    color: var(--corPagina);
+}
+
+#footer-center {
+    border-left: 1px solid #708388;
+    border-right: 1px solid #708388;
+}
+
+#footer-center h3 {
+    font-weight: 900;
+}
+
+#footer-center .store-phone {
+    color: #708388;
+    font-weight: bold;
+    font-size: 1em;
 }

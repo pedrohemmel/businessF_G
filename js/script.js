@@ -7,3 +7,9 @@ function apareceDiv() {
         todosProdutos.style.display = 'block';
     }
 }
+
+function voltaMaisVendidos() {
+    if(todosProdutos.style.display == 'block') {
+        todosProdutos.style.display = 'none';
+    } 
+}

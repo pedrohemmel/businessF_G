@@ -267,6 +267,7 @@ body {
     justify-content: space-between;
 }
 
+
 @media screen and (min-width: 768px) {
 
     #mini-banners {
@@ -291,10 +292,31 @@ body {
 }
 
 #mini-banners .col-12 img {
+    width: 200px;
     height: 200px;
     position: absolute;
     right: 1em;
     bottom: 2em;
+}
+
+@media (min-width: 768px) {
+    #mini-banners .col-12 img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        right: 2em;
+        bottom: 3em;
+    }
+}
+
+@media (min-width: 990px) {
+    #mini-banners .col-12 img {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: 2em;
+        bottom: 2em;
+    }
 }
 
 #mini-banners .col-12 a {

@@ -635,26 +635,30 @@ body {
     color: #fff;
 }
 
-#sejaParceiro h2 {
+#sejaParceiro img {
+    width: 100%;
+}
 
+#sejaParceiro h2 {
     margin-top: 2em;
 
-    font-size: 50px;
+    font-size: 35px;
 
     text-transform: uppercase;
 
     font-weight: 900;
-    
 }
 
 @media (min-width: 768px) {
     #sejaParceiro h2 {
-        text-align: right;
+        font-size: 50px;    
     }
 }
 
+
 #sejaParceiro p,
-#sejaParceiro a {
+#sejaParceiro a,
+#sejaParceiro h2 {
     text-align: center;
 }
 

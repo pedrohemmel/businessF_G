@@ -628,7 +628,7 @@ body {
     width: 80%;
 
     border-radius: 50%;
-    border: 10px solid var(--corPagina);
+    border: 5px solid var(--corPagina);
 }
 
 @media (min-width: 768px) {
@@ -783,7 +783,7 @@ body {
 
     text-align: center;
 
-    padding: 10px 0;
+    padding: 1em 0;
 }
 
 #footerRedes i {
@@ -802,4 +802,12 @@ body {
 
 #copyContainer p {
     color: #fff;
+
+    font-size: 0.7em;
+}
+
+@media (min-width: 768px) {
+    #copyContainer p {
+        font-size: 1em;
+    }
 }

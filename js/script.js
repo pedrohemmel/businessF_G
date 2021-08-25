@@ -12,16 +12,7 @@ let sejaParceiro = document.getElementById('sejaParceiro');
 
 function apareceDiv() {
     if(todosProdutos.style.display == 'block') {
-        todosProdutos.style.display = 'none';
-        footer.style.display = 'block';
-        apresentacaoCeo.style.display = 'block';
-        contato.style.display = 'block';
-        maisVendidos.style.display = 'block';
-        sejaParceiro.style.display = 'block';
-        apresentacao.style.display = 'block';
-        bottomNavbar.style.display = 'block';
-        banners.style.display = 'block';
-        navbar.style.display = 'block';
+        location.reload(true);
     } else {
         todosProdutos.style.display = 'block';
         footer.style.display = 'none';

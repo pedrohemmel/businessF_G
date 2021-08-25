@@ -66,8 +66,8 @@ body {
     margin-left: 1em;
 }
 
-#navbar a {
-    color: black;;
+#navbar .contatoNavbar a {
+    color: black;
 }
 
 #navbar li {
@@ -144,7 +144,6 @@ body {
 
 @media screen and (min-width: 992px) {
     .btnParceiro {
-       height: 50px;
        display: block;
     }
 }
@@ -181,14 +180,14 @@ body {
     margin-top: 30px;
 }
 
-.segNav button {
+.segNav a {
     color: white;
     border-color: white;
     background-color: black;
     
 }
 
-.segNav button:hover {
+.segNav a:hover {
     color: white;
     border-color: white;
     background-color: black;

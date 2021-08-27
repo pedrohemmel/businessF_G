@@ -91,7 +91,7 @@ body {
 }
 
 .navbar-brand img{
-    width: 120px;
+    width: 150px;
 }
 
 @media screen and (min-width: 992px) {
@@ -104,7 +104,7 @@ body {
 @media screen and (min-width: 500px) {
 
     .navbar-brand img{
-        width: 150px;
+        width: 170px;
     }
 
 }
@@ -226,6 +226,10 @@ body {
 
 #banners-container {
     padding: 0;
+}
+
+.carousel-item img {
+    width: 60%;
 }
 
 .carousel-caption {
@@ -392,7 +396,9 @@ body {
 }
 
 
-
+.card-title {
+    font-weight: bold;
+}
 
 .title {
     text-transform: uppercase;
@@ -411,6 +417,8 @@ body {
 .card {
     text-align: center;
     border-radius: 0;
+
+    margin-bottom: 25px;
 }
 
 
@@ -422,7 +430,7 @@ body {
 }
 
 .card-body p {
-    color:rgb(181, 181, 181);
+    color:rgb(58, 58, 58);
 }
 
 .card .card-text {
@@ -460,13 +468,11 @@ body {
 /*Todos produtos*/
 
 #todosProdutos {
-    position: absolute;
-    width: 100%;
     margin: auto;
     top: 0;
     padding-top: 4em;
     padding-bottom: 4em;
-    display: none;
+   
 }
 
 
@@ -494,14 +500,6 @@ body {
         height: 200px;
         text-align: center;;
     }
-}
-
-.voltarMaisVendidos {
-    border: none;
-}
-
-.voltarMaisVendidos:hover {
-    background-color: #2d7b91;
 }
 
 /*CONTATO*/
@@ -588,13 +586,15 @@ body {
 #acessoRedes .bi {
     font-size: 30px;
 
+    color: #fff;
+
     margin-right: 10px;
 }
 
 /*APRESENTACAO CEOs*/
 
 #apresentacaoCeo {
-    margin: 4em 0;
+    padding: 4em 0 1em 0;
 }
 
 #apresentacaoCeo h3 {
@@ -607,33 +607,36 @@ body {
 }
 
 #apresentacaoCeo img {
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 #apresentacaoCeo h3 b {
-    color: var(--corPagina);
+    color: #fff;
 } 
 
 #apresentacaoCeo p {
     text-align: justify;
 
-    margin-top: 2em;
+    margin-top: 3em;
 
-    padding-bottom: 20px;
+    font-weight: 500;
 
-    overflow:hidden;
+    padding-bottom: 10px;
+
+    overflow: auto;
 }
 
 #apresentacaoCeo img {
-    width: 80%;
+    width: 50%;
 
-    border-radius: 50%;
-    border: 5px solid var(--corPagina); 
+    border-radius: 20px;
+    border: 3px solid #fff; 
 }
 
 @media (min-width: 768px) {
     #apresentacaoCeo p {
         height: 200px;
+        width: 90%;
     }
 }
 
@@ -656,7 +659,7 @@ body {
 }
 
 #sejaParceiro img {
-    width: 100%;
+    width: 70%;
 }
 
 #bannerParceiro {

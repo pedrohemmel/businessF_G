@@ -204,6 +204,26 @@ body {
 #bottom-navbar-container a {
     font-weight: 600;
     color: #fff;
+
+}
+
+#bottom-navbar .dropdown-item {
+    width: 100%;
+}
+
+#bottom-navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.364);
+}
+
+
+
+@media (min-width: 768px) {
+    #bottom-navbar .dropdown-menu {
+        margin: 10px 0 0 0;;
+
+
+        transition: 0.3s;
+    }
 }
 
 .navbar-toggler {
@@ -334,7 +354,9 @@ body {
     color: rgb(237, 126, 86);
 }
 
-/*Apresentação*/
+/*SOBRE NÓS*/
+
+/*APRESENTACAO*/
 
 #apresentacao {
     padding-top: 6em;
@@ -377,6 +399,31 @@ body {
 #apresentacao .btn:hover {
     background-color: #2d7b91;
 }
+
+/*NOSSA HISTORIA*/
+
+#nossaHistoria {
+    
+}
+
+#nossaHistoria img {
+    width: 100%;
+}
+
+#nossaHistoria .col-md-6 {
+    padding: 0;
+}
+
+#nossaHistoria p {
+    padding: 0 20px;
+    text-align: justify;
+    overflow: auto;
+    height: 100%;
+}
+
+
+
+/*SOBRE NÓS*/
 
 /*mais vendidos*/
 
@@ -599,7 +646,7 @@ body {
 
 #apresentacaoCeo h3 {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
 
     text-transform: uppercase;
     text-align: center;
@@ -610,9 +657,7 @@ body {
     margin-top: 2em;
 }
 
-#apresentacaoCeo h3 b {
-    color: #fff;
-} 
+
 
 #apresentacaoCeo p {
     text-align: justify;
@@ -620,6 +665,7 @@ body {
     margin-top: 3em;
 
     font-weight: 500;
+    width: 95%;
 
     padding-bottom: 10px;
 
@@ -629,8 +675,8 @@ body {
 #apresentacaoCeo img {
     width: 50%;
 
-    border-radius: 20px;
-    border: 3px solid #fff; 
+    border-radius: 50%;
+    border: 3px solid var(--corPagina); 
 }
 
 @media (min-width: 768px) {

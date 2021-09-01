@@ -121,11 +121,17 @@ body {
         position: absolute;
         right: 5px;
         top: 5px;
+        
+    }
+
+    .contatoNavBar a {
+        border-radius: 10px;
+        padding: 0 5px;
     }
 
     .contatoNavBar img {
         width: 30px;
-        
+        margin: 0 5px;
     }
 
     @media screen and (min-width: 768px) {
@@ -488,12 +494,32 @@ body {
     padding: 4em 0;
 }
 
+#nossosPrincipios h3 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 2em 0;
+}
+
 #nossosPrincipios .col-12 h4 {
     text-align: center;
+    font-weight: 700;
 }
 
 #nossosPrincipios .col-12 p {
     text-align: justify;
+    font-weight: 500;
+}
+
+#nossosPrincipios .iconePrincipios {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#nossosPrincipios .bi {
+    font-size: 40px;
+    margin: 20px 0;
+
 }
 
 
@@ -503,12 +529,30 @@ body {
     height: 300px;
     width: 100%;
 
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px;
 
     overflow: auto;
 
     box-shadow: 2px 2px 10px rgba(58, 58, 58, 0.5);
+}
+
+@media (min-width: 768px) {
+    
+    #nossosPrincipios .blocoNossosPrincipios {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    
+        height: 300px;
+        width: 100%;
+    
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #nossosPrincipios h3 {
+        font-size: 40px;
+    }
 }
 
 
